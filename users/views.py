@@ -15,7 +15,7 @@ def weather(request, city, year):
 
 def get_param(request):
     # 获取到?后面的字符串参数
-    #
+    # GET与客户端的请求方式无关
     a = request.GET.get("a")
     b = request.GET.get("b")
     a_list = request.GET.getlist("a")
